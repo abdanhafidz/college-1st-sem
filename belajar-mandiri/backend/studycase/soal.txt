@@ -1,0 +1,15 @@
+Buatlah sebuah end-point dengan 
+Request :
+ - Login : Mevalidasi Login menggunakan model :
+ username:string
+ password:hashMD5
+ - Register: Menambahkan data user :
+ name:string
+ username:string
+ password:string
+ - Get User Info : Mendapatkan informasi suatu user dari usernamenya
+ format response 
+ {
+    name:
+    username:
+ }
